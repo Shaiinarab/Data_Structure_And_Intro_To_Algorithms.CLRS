@@ -1,39 +1,45 @@
 # 📝 Mini Homeworks – Data Architecture & Algorithms
 
-**Author:** Shahin Arab
-**Student Number:** 401433113
-**Course:** Data Architecture & Algorithms
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
+[![Author](https://img.shields.io/badge/Author-Shahin%20Arab-orange.svg)]()
+
+---
+
+## 👤 Student Info
+- **Name:** Shahin Arab  
+- **Student Number:** 401433113  
+- **Course:** Data Architecture & Algorithms  
 
 ---
 
 ## 📂 Project Overview
-
-This repository contains a collection of mini homework assignments for the _Data Architecture & Algorithms_ course.
+This repository contains a collection of **mini homework assignments** for the *Data Architecture & Algorithms* course.  
 Each exercise is implemented as a separate Python module, and all modules are accessible through a single launcher script (`main.py`).
 
 ---
 
 ## 📑 Homework Modules
-
-1. **Insert into Sorted Array** – Insert a number into a sorted array while keeping it sorted.
-2. **Find Min & Max** – Return the minimum and maximum values in an array.
-3. **Merge Two Sorted Arrays** – Merge two sorted arrays into one sorted array.
-4. **Find Middle Element (Array)** – Return the middle element of an array.
-5. **Merge Two Linked Lists** – Concatenate two linked lists.
-6. **Find Middle of Linked List** – Return the middle node of a linked list.
-7. **Palindrome Check** – Check if a string is a palindrome.
-8. **Balanced Brackets** – Verify if a string with `()`, `{}`, `[]` is properly balanced.
+| # | Homework | Description |
+|---|-----------|-------------|
+| 1 | Insert into Sorted Array | Insert a number into a sorted array while keeping it sorted |
+| 2 | Find Min & Max | Return the minimum and maximum values in an array |
+| 3 | Merge Two Sorted Arrays | Merge two sorted arrays into one sorted array |
+| 4 | Find Middle Element (Array) | Return the middle element of an array |
+| 5 | Merge Two Linked Lists | Concatenate two linked lists |
+| 6 | Find Middle of Linked List | Return the middle node of a linked list |
+| 7 | Palindrome Check | Check if a string is a palindrome |
+| 8 | Balanced Brackets | Verify if a string with (), {}, [] is properly balanced |
 
 ---
 
 ## 🚀 How to Run
-
-1. Make sure you have **Python 3.8+** installed.
-2. Clone or extract the project folder `mini_homeworks/`.
+1. Make sure you have **Python 3.8+** installed.  
+2. Clone or download this repository.  
 3. Open a terminal in the project root and run:
 
 ```bash
-python main.py
+python mini_homeworks/main.py
 
 
 - You will see a menu where you can choose which homework to run.
@@ -58,4 +64,3 @@ mini_homeworks/
 - The project is modular: each homework is in its own file.
 - __init__.py exposes all functions and classes for clean imports.
 - main.py acts as a launcher with an interactive menu.
-```
