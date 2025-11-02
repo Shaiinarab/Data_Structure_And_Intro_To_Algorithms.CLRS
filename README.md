@@ -45,7 +45,9 @@
 
 - Use menu: Pick any homework to execute from the interactive menu.
 
-Project structure
+
+
+## Project structure
 mini_homeworks/
 │
 ├── __init__.py
@@ -58,7 +60,6 @@ mini_homeworks/
 ├── hw6_linked_middle.py
 ├── hw7_palindrome.py
 └── hw8_brackets.py
-
 
 
 Notes
@@ -91,3 +92,4 @@ python mini_homeworks/main.py
 - طراحی ماژولار: هر تمرین در فایل جداگانه.
 - Importهای تمیز: از طریق __init__.py قابل دسترسی هستند.
 - لانچر تعاملی: اجرای آسان از طریق main.py.
+
