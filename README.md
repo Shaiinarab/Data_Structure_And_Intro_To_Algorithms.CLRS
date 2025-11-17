@@ -11,7 +11,7 @@
 ## Student info
 - **Name:** Shahin Arab  
 - **Student number:** 401433113  
-- **Course:** Data Architecture & Algorithms  
+- **Course:** Data structures & intro to Algorithms  
 
 ---
 
