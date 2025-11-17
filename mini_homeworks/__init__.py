@@ -13,6 +13,7 @@ from .hw5_linked_merge import Node, merge_lists
 from .hw6_linked_middle import find_middle
 from .hw7_palindrome import is_palindrome
 from .hw8_brackets import is_balanced
+from .hw9_parking_queue import main as parking_queue
 
 __all__ = [
     "insert_sorted",
@@ -24,8 +25,9 @@ __all__ = [
     "find_middle",
     "is_palindrome",
     "is_balanced",
+    "parking_queue",
 ]
 
 __author__ = "Shahin Arab"
 __student_id__ = "401433113"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
