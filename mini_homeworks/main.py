@@ -3,7 +3,8 @@
 
 from mini_homeworks import (
     insert_sorted, find_min_max, merge_sorted, middle_element,
-    Node, merge_lists, find_middle, is_palindrome, is_balanced
+    Node, merge_lists, find_middle, is_palindrome, is_balanced,
+    parking_queue
 )
 
 def banner():
@@ -22,11 +23,12 @@ def menu():
     print("6. Find middle of linked list")
     print("7. Check palindrome string")
     print("8. Check balanced brackets")
+    print("9. 🚗 Parking lot simulation using queue")
 
 def main():
     banner()
     menu()
-    choice = input("\nEnter choice (1-8): ")
+    choice = input("\nEnter choice (1-9): ")
 
     if choice == "1":
         arr = [1, 3, 5, 9]
@@ -69,8 +71,11 @@ def main():
         s = input("Enter a string with brackets: ")
         print("Balanced?", is_balanced(s))
 
+    elif choice == "9":
+        parking_queue()
+
     else:
-        print("Invalid choice.")
+        print("❌ Invalid choice.")
 
 if __name__ == "__main__":
     main()
