@@ -4,7 +4,7 @@
 from mini_homeworks import (
     insert_sorted, find_min_max, merge_sorted, middle_element,
     Node, merge_lists, find_middle, is_palindrome, is_balanced,
-    parking_queue
+    parking_queue, trees_main
 )
 
 def banner():
@@ -24,11 +24,12 @@ def menu():
     print("7. Check palindrome string")
     print("8. Check balanced brackets")
     print("9. 🚗 Parking lot simulation using queue")
+    print("10. 🌳 Tree traversals, count, height, and expression evaluation")
 
 def main():
     banner()
     menu()
-    choice = input("\nEnter choice (1-9): ")
+    choice = input("\nEnter choice (1-10): ")
 
     if choice == "1":
         arr = [1, 3, 5, 9]
@@ -73,7 +74,8 @@ def main():
 
     elif choice == "9":
         parking_queue()
-
+    elif choice == "10":
+        trees_main()
     else:
         print("❌ Invalid choice.")
 

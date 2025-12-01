@@ -14,7 +14,7 @@ from .hw6_linked_middle import find_middle
 from .hw7_palindrome import is_palindrome
 from .hw8_brackets import is_balanced
 from .hw9_parking_queue import main as parking_queue
-
+from .hw10_trees import main as trees_main
 __all__ = [
     "insert_sorted",
     "find_min_max",
@@ -26,6 +26,7 @@ __all__ = [
     "is_palindrome",
     "is_balanced",
     "parking_queue",
+    "trees_main",
 ]
 
 __author__ = "Shahin Arab"
