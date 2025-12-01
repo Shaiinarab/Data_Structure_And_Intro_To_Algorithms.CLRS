@@ -8,52 +8,52 @@ class ParkingLot:
     def arrive(self, car_id):
         if len(self.queue) < self.capacity:
             self.queue.append(car_id)
-            print(f"🚗 ماشین {car_id} وارد شد.")
+            print(f"🚗 Car {car_id} arrived.")
         else:
-            print(f"❌ پارکینگ پر است. ماشین {car_id} نمی‌تواند وارد شود.")
+            print(f"❌ Parking lot is full. Car {car_id} cannot enter.")
 
     def depart(self):
         if self.queue:
             car_id = self.queue.popleft()
-            print(f"🚙 ماشین {car_id} خارج شد.")
+            print(f"🚙 Car {car_id} departed.")
         else:
-            print("⚠️ پارکینگ خالی است.")
+            print("⚠️ Parking lot is empty.")
 
     def status(self):
-        print("📊 وضعیت فعلی پارکینگ:")
+        print("📊 Current parking lot status:")
         if self.queue:
             for i, car in enumerate(self.queue, start=1):
-                print(f"{i}. ماشین {car}")
+                print(f"{i}. Car {car}")
         else:
-            print("هیچ ماشینی در پارکینگ نیست.")
+            print("No cars in the parking lot.")
 
 def main():
-    print("\n🚘 شبیه‌ساز صف پارکینگ")
+    print("\n🚘 Parking Queue Simulator")
     try:
-        capacity = int(input("ظرفیت پارکینگ را وارد کنید: "))
+        capacity = int(input("Enter parking lot capacity: "))
     except ValueError:
-        print("❌ مقدار نامعتبر. ظرفیت باید عدد صحیح باشد.")
+        print("❌ Invalid input. Capacity must be an integer.")
         return
 
     parking = ParkingLot(capacity)
 
     while True:
-        print("\nمنو:")
-        print("1. ورود ماشین")
-        print("2. خروج ماشین")
-        print("3. نمایش وضعیت پارکینگ")
-        print("4. خروج از برنامه")
-        choice = input("انتخاب شما: ")
+        print("\nMenu:")
+        print("1. Car arrival")
+        print("2. Car departure")
+        print("3. Show parking status")
+        print("4. Exit program")
+        choice = input("Your choice: ")
 
         if choice == "1":
-            car_id = input("شماره ماشین را وارد کنید: ")
+            car_id = input("Enter car ID: ")
             parking.arrive(car_id)
         elif choice == "2":
             parking.depart()
         elif choice == "3":
             parking.status()
         elif choice == "4":
-            print("👋 خروج از شبیه‌ساز پارکینگ.")
+            print("👋 Exiting Parking Queue Simulator.")
             break
         else:
-            print("❌ گزینه نامعتبر. لطفاً دوباره تلاش کنید.")
+            print("❌ Invalid option. Please try again.")
