@@ -5,7 +5,7 @@
 [![Updates](https://img.shields.io/badge/Updates-Weekly-purple.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> GitHub: https://github.com/Shaiinarab/Data-architecture-and-algorithms/tree/main
+> GitHub: https://github.com/Shaiinarab/Data_Structure_And_Intro_To_Algorithms.CLRS
 
 ---
 
