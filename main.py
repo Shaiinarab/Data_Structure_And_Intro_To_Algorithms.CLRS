@@ -1,5 +1,5 @@
 # main.py
-# Launcher for Shahin Arab's Data Structure & intro to Algorithms Homeworks
+# Launcher for Shahin Arab's Data Structures & Intro to Algorithms Homeworks
 
 from mini_homeworks import (
     insert_sorted, find_min_max, merge_sorted, middle_element,
@@ -8,22 +8,22 @@ from mini_homeworks import (
 )
 
 def banner():
-    print("=" * 60)
-    print("🌟 Shahin Arab | Student No: 401433113 🌟".center(60))
-    print(" Data structures & intro to Algorithms Mini Homeworks ".center(60))
-    print("=" * 60)
+    print("=" * 70)
+    print("🌟 Shahin Arab | Student No: 401433113 🌟".center(70))
+    print(" Data Structures & Intro to Algorithms – Mini Homeworks ".center(70))
+    print("=" * 70)
 
 def menu():
-    print("\nChoose a homework to run:")
-    print("1. Insert into sorted array")
-    print("2. Find min & max in array")
-    print("3. Merge two sorted arrays")
-    print("4. Find middle element of array")
-    print("5. Merge two linked lists")
-    print("6. Find middle of linked list")
-    print("7. Check palindrome string")
-    print("8. Check balanced brackets")
-    print("9. 🚗 Parking lot simulation using queue")
+    print("\n📚 Available Homeworks:")
+    print(" 1. 🔢 Insert into sorted array")
+    print(" 2. 📉 Find min & max in array")
+    print(" 3. 🔀 Merge two sorted arrays")
+    print(" 4. 🎯 Find middle element (array)")
+    print(" 5. 🔗 Merge two linked lists")
+    print(" 6. 🧩 Find middle of linked list")
+    print(" 7. 🔍 Palindrome check (string)")
+    print(" 8. 🏗️ Balanced brackets check")
+    print(" 9. 🚗 Parking lot simulation (queue)")
     print("10. 🌳 Tree traversals, count, height, and expression evaluation")
 
 def main():
@@ -74,10 +74,12 @@ def main():
 
     elif choice == "9":
         parking_queue()
+
     elif choice == "10":
         trees_main()
+
     else:
-        print("❌ Invalid choice.")
+        print("❌ Invalid choice. Please select a number between 1 and 10.")
 
 if __name__ == "__main__":
     main()
